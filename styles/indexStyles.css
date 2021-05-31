@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container #loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+}
+
+.container .header {
+  border-bottom: 1px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 20px;
+  margin-bottom: 25px;
+}
+
+.container .header img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.container .header .user-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header .user-detail .profile {
+  width: 40px;
+  height: 40px;
+  background: #a2d6b2;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.container .header .user-detail .name-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .header .user-detail .name-phone .phone {
+  font-size: 12px;
+}
+
+.container .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.container .date .left-line {
+  margin-right: 10px;
+}
+
+.container .date .right-line {
+  margin-left: 10px;
+}
+
+.container .date .horizontal-line {
+  border-bottom: 2px dotted black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 0.2px;
+}
+
+.container .date p {
+  background: white;
+}
+
+.container .new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .new .empty {
+  display: none;
+}
+
+.container .new .not-empty {
+  display: block;
+}
+
+.container .new .card-container {
+  width: 60%;
+  margin: 0 20px;
+  margin-bottom: 30px;
+}
+
+.container .new .card-container .card {
+  border: 1px solid black;
+  padding: 20px 20px 10px 20px;
+}
+
+.container .new .card-container .card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .new .card-container .card .top .top-left {
+  font-size: 40px;
+}
+
+.container .new .card-container .card .top .top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .new .card-container .card .top .top-right img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.container .new .card-container .card .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .new .card-container .card .bottom .transaction-id {
+  font-size: 12px;
+}
+
+.container .new .card-container .card .bottom .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .new .card-container .card .bottom .btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.container .new .card-container .card .bottom img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 15px;
+  cursor: pointer;
+}
+
+.container .new .card-container .transaction-date-time {
+  font-size: 12px;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=indexStyles.css.map */
